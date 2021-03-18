@@ -12,7 +12,7 @@ function preload() {
 }
 
 function setup(){
-    createCanvas(1000,800);
+    var cnv = createCanvas(windowWidth,windowHeight);
     
     tom = createSprite(870, 600);
     tom.addAnimation("tomSleeping", tomImg1);
